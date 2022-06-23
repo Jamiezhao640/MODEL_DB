@@ -1,0 +1,19 @@
+[
+  {
+    "resource": "table_column",
+    "action": "get",
+    "by_whom_id": 1,
+    "data": {
+      "page_name": "setting_site"
+    }
+  },
+
+
+  {
+    "resource": "user",
+    "action": "get",
+    "by_whom_id": -1,
+    "data": { "user_principal_name": "support@navidata.ca" }
+  }
+
+]

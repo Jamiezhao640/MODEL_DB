@@ -1,0 +1,21 @@
+# frontend table colum name mapping
+{
+  "page_name": {
+    "column_name_1": {
+      "display_name_1": "displayName1",
+      "display_value_1: "displayValue1",
+    },
+    "column_name_2": {
+      "display_name_2": "displayName2",
+      "display_value_2: "displayValue2",
+    },
+    "column_name_3": {
+      "display_name_3": "displayName3",
+      "display_value_3: "displayValue3",
+    },
+  }
+}
+
+page_name (page table)
+
+page_name (FK) column_name display_name  display_value (column name mapping table)

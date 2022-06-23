@@ -1,0 +1,24 @@
+{
+  "resource_config": {
+    "resource": "user_role_permission",
+    "action": "get/create/update/delete",
+    "by_whom_id": 1,
+    "data": {
+      "filter": [
+        {
+          "name": "user",
+          "value": [ "1", "2", "3", "4" ]
+        },
+        {
+          "name": "name",
+          "value": [ 1, 2, 3, 4 ]
+        },
+        {
+          "name": "is_active",
+          "value": true
+        }
+      ]
+    }
+  }
+}
+

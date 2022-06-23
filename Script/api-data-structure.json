@@ -1,0 +1,319 @@
+# data structure type 1
+{
+  "sql_query": "SELECT COUNT(1) FROM PO;"
+}
+
+# data structure type 2.1
+{
+  "resouce_type": ["table"]
+  "resource_name": "project_item",
+  "crud": "create",
+  "data" : {
+    "field_name_1": "bit",
+    "field_name_2": "int",
+    "field_name_3": "string",
+    "field_name_4": "array",
+  },
+}
+
+# data structure type 2.2
+{
+  "resouce_type": ["table"]
+  "resource_name": "project_item",
+  "crud": "get/delete",
+  "sql_where_clause": "a AND b..."
+}
+
+# data structure type 2.3
+{
+  "resouce_type": ["table"]
+  "resource_name": "project_item",
+  "crud": "update",
+  "data" : {
+    "field_name_1": "bit",
+    "field_name_2": "int",
+    "field_name_3": "string",
+    "field_name_4": "array",
+  },
+  "sql_where_clause": "a AND b..."  
+}
+
+# data structure type 3
+{
+  "resouce_type": ["stored_procedure"]  
+  "resource_name": "sp_name",
+  "data" : {
+    "param_name_1": "bit",
+    "param_name_2": "int",
+    "param_name_3": "string",
+    "param_name_4": "array",
+  },
+}
+
+
+[
+  {
+    "id": 18,
+    "name": "TEST",
+    "role_json": [
+      {
+        "id": 1,
+        "name": "ADMIN",
+        "menu_json": [
+          {
+            "id": 31,
+            "name": "CATALOG"
+          },
+          {
+            "id": 32,
+            "name": "CATALOG_ITEM"
+          },
+          {
+            "id": 33,
+            "name": "CATALOG_LOCATION"
+          },
+          {
+            "id": 34,
+            "name": "CATALOG_SPECIFICATION"
+          },
+          {
+            "id": 35,
+            "name": "CATALOG_IMIT_INFORMATION"
+          },
+          {
+            "id": 36,
+            "name": "PURCHASING"
+          },
+          {
+            "id": 37,
+            "name": "PURCHASING_PO"
+          },
+          {
+            "id": 38,
+            "name": "PURCHASING_INVOICE"
+          },
+          {
+            "id": 39,
+            "name": "PROJECT"
+          },
+          {
+            "id": 40,
+            "name": "PROJECT_EQUIPMENT"
+          },
+          {
+            "id": 41,
+            "name": "PROJECT_ITEM"
+          },
+          {
+            "id": 42,
+            "name": "PROJECT_ROOM"
+          },
+          {
+            "id": 43,
+            "name": "ESTIMATE"
+          },
+          {
+            "id": 44,
+            "name": "ESTIMATE_TEMPLATE"
+          },
+          {
+            "id": 45,
+            "name": "ESTIMATE_ROOM"
+          },
+          {
+            "id": 46,
+            "name": "ESTIMATE_PLAN"
+          },
+          {
+            "id": 47,
+            "name": "ESTIMATE_EQUIPMENT"
+          },
+          {
+            "id": 48,
+            "name": "REPORT"
+          },
+          {
+            "id": 49,
+            "name": "REPORT_VIEW"
+          },
+          {
+            "id": 50,
+            "name": "REPORT_PIVOT_TABLE"
+          },
+          {
+            "id": 51,
+            "name": "SYSTEM"
+          },
+          {
+            "id": 52,
+            "name": "SYSTEM_ADMIN"
+          },
+          {
+            "id": 53,
+            "name": "SYSTEM_ADMIN_USER"
+          },
+          {
+            "id": 54,
+            "name": "SYSTEM_ADMIN_ROLE"
+          },
+          {
+            "id": 55,
+            "name": "SYSTEM_ADMIN_PERMISSION"
+          },
+          {
+            "id": 56,
+            "name": "SYSTEM_LIST"
+          },
+          {
+            "id": 57,
+            "name": "SYSTEM_LIST_PROJECT"
+          },
+          {
+            "id": 58,
+            "name": "SYSTEM_LIST_SITE"
+          },
+          {
+            "id": 59,
+            "name": "SYSTEM_LIST_CONTRACT"
+          },
+          {
+            "id": 60,
+            "name": "SYSTEM_LIST_OWNERSHIP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Navidata",
+    "role_json": [
+      {
+        "id": 1,
+        "name": "ADMIN",
+        "menu_json": [
+          {
+            "id": 31,
+            "name": "CATALOG"
+          },
+          {
+            "id": 32,
+            "name": "CATALOG_ITEM"
+          },
+          {
+            "id": 33,
+            "name": "CATALOG_LOCATION"
+          },
+          {
+            "id": 34,
+            "name": "CATALOG_SPECIFICATION"
+          },
+          {
+            "id": 35,
+            "name": "CATALOG_IMIT_INFORMATION"
+          },
+          {
+            "id": 36,
+            "name": "PURCHASING"
+          },
+          {
+            "id": 37,
+            "name": "PURCHASING_PO"
+          },
+          {
+            "id": 38,
+            "name": "PURCHASING_INVOICE"
+          },
+          {
+            "id": 39,
+            "name": "PROJECT"
+          },
+          {
+            "id": 40,
+            "name": "PROJECT_EQUIPMENT"
+          },
+          {
+            "id": 41,
+            "name": "PROJECT_ITEM"
+          },
+          {
+            "id": 42,
+            "name": "PROJECT_ROOM"
+          },
+          {
+            "id": 43,
+            "name": "ESTIMATE"
+          },
+          {
+            "id": 44,
+            "name": "ESTIMATE_TEMPLATE"
+          },
+          {
+            "id": 45,
+            "name": "ESTIMATE_ROOM"
+          },
+          {
+            "id": 46,
+            "name": "ESTIMATE_PLAN"
+          },
+          {
+            "id": 47,
+            "name": "ESTIMATE_EQUIPMENT"
+          },
+          {
+            "id": 48,
+            "name": "REPORT"
+          },
+          {
+            "id": 49,
+            "name": "REPORT_VIEW"
+          },
+          {
+            "id": 50,
+            "name": "REPORT_PIVOT_TABLE"
+          },
+          {
+            "id": 51,
+            "name": "SYSTEM"
+          },
+          {
+            "id": 52,
+            "name": "SYSTEM_ADMIN"
+          },
+          {
+            "id": 53,
+            "name": "SYSTEM_ADMIN_USER"
+          },
+          {
+            "id": 54,
+            "name": "SYSTEM_ADMIN_ROLE"
+          },
+          {
+            "id": 55,
+            "name": "SYSTEM_ADMIN_PERMISSION"
+          },
+          {
+            "id": 56,
+            "name": "SYSTEM_LIST"
+          },
+          {
+            "id": 57,
+            "name": "SYSTEM_LIST_PROJECT"
+          },
+          {
+            "id": 58,
+            "name": "SYSTEM_LIST_SITE"
+          },
+          {
+            "id": 59,
+            "name": "SYSTEM_LIST_CONTRACT"
+          },
+          {
+            "id": 60,
+            "name": "SYSTEM_LIST_OWNERSHIP"
+          }
+        ]
+      }
+    ]
+  }
+]

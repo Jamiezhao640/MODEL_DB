@@ -1,0 +1,62 @@
+[
+  {
+    "resource": "site",
+    "action": "create",
+    "page_name": "list_site",
+    "by_whom_id": 1,
+    "data": {
+      "name": "test site",
+      "address": "test address"
+    }
+  }
+  ,
+
+  {
+    "resource": "site",
+    "action": "update",
+    "page_name": "list_site",
+    "by_whom_id": 1,
+    "data": {
+      "name": "test site 1",
+      "address": "test address 1",
+      "filter": [
+        {
+          "name": "id",
+          "value": [ 1, 2, 3 ]
+        }
+      ]
+    }
+  },
+  {
+    "resource": "site",
+    "action": "get",
+    "page_name": "list_site",
+    "by_whom_id": 1,
+    "data": {
+      "filter": [
+        {
+          "name": "id",
+          "value": 1
+        },
+        {
+          "name": "name",
+          "value": "test site"
+        }
+      ]
+    }
+  },
+  {
+    "resource": "site",
+    "action": "delete",
+    "page_name": "list_site",
+    "by_whom_id": 1,
+    "data": {
+      "filter": [
+        {
+          "name": "id",
+          "value": [ 1, 2, 3 ]
+        },
+      ]
+    },
+  }
+]
